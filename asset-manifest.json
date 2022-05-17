@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sccs-react-practice%20/static/css/main.3c1409f0.css",
+    "main.js": "/sccs-react-practice%20/static/js/main.e94ba0a3.js",
+    "static/js/787.28cb0dcd.chunk.js": "/sccs-react-practice%20/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/sccs-react-practice%20/index.html",
+    "main.3c1409f0.css.map": "/sccs-react-practice%20/static/css/main.3c1409f0.css.map",
+    "main.e94ba0a3.js.map": "/sccs-react-practice%20/static/js/main.e94ba0a3.js.map",
+    "787.28cb0dcd.chunk.js.map": "/sccs-react-practice%20/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c1409f0.css",
+    "static/js/main.e94ba0a3.js"
+  ]
+}

@@ -1,13 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../Styles/Navbar.scss"
 
 export const Navbar = () => {
 	return (
 		<div className="navbar">
-			<a href="/home">Home</a>
-			<a href="/About">About</a>
-			<a href="/Profile">Profile</a>
-			<a href="/Contact">Contact</a>
+			<Link to={'/'}>
+				Home
+			</Link>
+			<Link to={'/About'}>
+				About
+			</Link>
+			<Link to={"/Profile"}>
+				Profile
+			</Link>
+			<Link to={"/Contact"}>
+				Contact
+			</Link>
 		</div>
 	);
 };

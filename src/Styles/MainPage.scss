@@ -1,11 +1,11 @@
 @import "./Variables/Variables.scss";
 
 .mainPage {
-	display: flex;
+	align-self: center;
+	display: grid;
 	justify-content: center;
-	align-items: center;
-
 	h1 {
+		text-align: center;
 		color: $redColor;
 		margin-inline: 10px;
 	}
@@ -13,4 +13,9 @@
 	button {
 		@include buttonStyle($redColor, $whiteColor, 24px);
 	}
+	.brokenButton {
+		@include buttonStyle($greenColor, $whiteColor, 24px);
+		margin-top: 20px;
+	}
 }
+
